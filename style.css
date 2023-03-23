@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+@font-face {
+    font-family: ComicNeue;
+    src: url(ComicNeue-Bold.ttf);
+}
+
+body {
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+@keyframes loading {
+    0%{
+        width: 0%;
+        background-color: red;
+    }
+    100%{
+
+    }
+}
+
+.box{
+    width: 160px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 7px;
+
+}
+.box-loading {
+    height: 20px;
+    width: 100%;
+    border-radius: 3px;
+    animation: loading 5s;
+    background-color: green;
+    
+}
+
+
+.BtnClick {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: 000000;
+    border-radius: 10px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transform: translate(10%, 150%);
+    font-family: ComicNeue;
+}
+    
+.BtnClick:hover{
+    border: 2px solid red;
+    background-image: url('Corazones.png');
+    color: white;
+}
+
+
+
+.container2 {
+    font-family: 'ComicNeue';
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.Start{
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transform: translate(0%,0%);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'ComicNeue';
+}
+
+.Start:hover{
+        border: 2px solid black;
+        color: white;
+        background-color: black;
+    
+}
+
+body {
+    font-family: 'ComicNeue';
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Correo {
+    height: 50px;
+}
+
