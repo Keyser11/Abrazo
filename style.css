@@ -33,6 +33,7 @@ body {
 h1 {
     font-size: 2em;
     font-weight: bold;
+    width: 80%;
 }
 p {
     font-size: 1em;
