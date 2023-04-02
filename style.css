@@ -67,8 +67,8 @@ p {
 }
 
 
-.BtnClick {
-    display: flex;
+#BtnClick {
+    display: none;
     width: 130px;
     height: 40px;
     background-color: 000000;
@@ -81,7 +81,7 @@ p {
     font-family: ComicNeue;
 }
     
-.BtnClick:hover{
+#BtnClick:hover{
     border: 2px solid red;
     background-image: url('Corazones.png');
     color: white;
