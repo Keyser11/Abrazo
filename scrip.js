@@ -1,5 +1,5 @@
 function CambiaMsj() {
-    document.getElementById("loading-msj").innerText = "Enviado con Exito ✓!!"
+    document.getElementById("loading-msj").innerText = "Enviado con Exito ✅!!"
 }
 
 setTimeout(CambiaMsj,6000)
