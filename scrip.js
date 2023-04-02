@@ -5,7 +5,7 @@ function CambiaMsj() {
 setTimeout(CambiaMsj,6000)
 
 setTimeout(function() {
-    alert(" Keyser Te Ha Enviado Un Abrazo❤️")
+    alert(" Keyser Te Ha Enviado Un Abrazo❤️") 
 }, 7200)
 
 setTimeout(function() {
@@ -21,3 +21,6 @@ setTimeout(function() {
 }, 7200)
 
 
+setTimeout(function() {
+    document.getElementById("BtnClick").style.display = "flex";
+}, 8000);
