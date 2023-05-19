@@ -9,45 +9,46 @@
 </head>
 
 <body >
-
     
-    <div class="container">
-        <h1>Envio de Abrazo Virtual 🫂</h1>
-        <img src="Dibujo.svg" alt="">
-        <p id="loading-msj">Cargando🕗...</p>
-        <div class="box">
-            <div class="box-loading">
 
-         <a id="BtnClick" href="https://youtu.be/0fufivrng4Y"> Clik Aqui</a>       
+    <div class="container2">
 
-        </div>
+        <img  class= "Correo"src="Correo.svg" alt="">
+        <p2 id="MsjC"> Tienes Un Correo!!❤️ </p2>
         
+        <h3> 😁 </h3>
+        <div  class="BtnStart">
             
-        <audio id="musica" src="music.mp3" autoplay ></audio>
+        <audio id="musica" src="music.mp3" muted></audio>
         <audio>
-
             <source src="music.mp3" type="">
             <source src="music.ogg" type="">
             <source src="music.wav" type="">
         
-        </audio>
         
+        </audio>
+
+        <button class="Start" onclick="redirectToPage()">Recibir</button>
+
+
     <script>
         function redirectToPage() {
-            
+
             var music = document.getElementById("musica");
             music.play();
+            window.location.href = "index2.html";
         }
     </script>
 
-        
     </div>
-
+   
+    </div>
     
-    </div> 
+    
+    
 
 
-<script src="scrip.js"></script>
+
 </body>
 
 </html>
