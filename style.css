@@ -146,3 +146,23 @@ body {
     height: 50px;
 }
 
+
+#muteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: translate(-150%,-90%);
+  }
+  
+#muteIcon {
+    font-size: 24px;
+}
+  
+.unmuted #muteIcon::before {
+    content: "\f028"; 
+}
+  
+.muted #muteIcon::before {
+    content: "\f6a9"; 
+}
+  
