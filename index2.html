@@ -6,49 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abrazo 🫂🫂</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body >
+
     
+    <div class="container">
+        <h1>Envio de Abrazo Virtual 🫂</h1>
+        <img src="Dibujo.svg" alt="">
+        <p id="loading-msj">Cargando🕗...</p>
+        <div class="box">
+            <div class="box-loading">
 
-    <div class="container2">
+         <a id="BtnClick" href="https://youtu.be/0fufivrng4Y"> Clik Aqui</a>       
 
-        <img  class= "Correo"src="Correo.svg" alt="">
-        <p2 id="MsjC"> Tienes Un Correo!!❤️ </p2>
+        </div>
         
-        <h3> 😁 </h3>
-        <div  class="BtnStart">
             
-        <audio id="musica" src="music.mp3" muted></audio>
+        <audio id="musica" src="music.mp3" autoplay muted ></audio>
         <audio>
+
             <source src="music.mp3" type="">
             <source src="music.ogg" type="">
             <source src="music.wav" type="">
         
-        
         </audio>
 
-        <button class="Start" onclick="redirectToPage()">Recibir</button>
 
-
+        <button id="muteButton" onclick="toggleMute()">
+            <i id="muteIcon" class="fas fa-volume-up"></i>
+        </button>
+        
+        
     <script>
         function redirectToPage() {
-
+            
             var music = document.getElementById("musica");
             music.play();
-            window.location.href = "index2.html";
+            
+            
         }
     </script>
 
+        
     </div>
-   
-    </div>
+
     
-    
-    
+    </div> 
 
 
-
+<script src="scrip.js"></script>
 </body>
 
 </html>
