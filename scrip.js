@@ -24,3 +24,23 @@ setTimeout(function() {
 setTimeout(function() {
     document.getElementById("BtnClick").style.display = "flex";
 }, 8000);
+
+
+var musica = document.getElementById("musica");
+var muteButton = document.getElementById("muteButton");
+
+
+function toggleMute() {
+
+  if (musica.muted) {
+    musica.muted = false;
+    muteButton.classList.remove("muted");
+    muteButton.classList.add("ummuted");
+  } 
+  
+  else {
+    musica.muted= true;
+    muteButton.classList.remove("ummuted");
+    muteButton.classList.add("muted");
+  }
+}
